@@ -1,9 +1,9 @@
-/** @type {import('tailwindcss').Config} */
+// /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-  'index.html'],
+  content: ['index.html'],
+  darkMode: 'class',
   theme: {
-    container:{
+    container: {
       center : true,
       padding: '16px',
     },
@@ -13,9 +13,9 @@ module.exports = {
         dark: '#0f172a',
         secondary: '#64748b',
       },
-    screns:{
-      '2xl': '1320px',
-    },
+      screens: {
+        '2xl': '1320px',
+      },
     },
   },
   plugins: [],
